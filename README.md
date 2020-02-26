@@ -31,7 +31,7 @@ print("debug : ", in_my_function(x,y)
 
 ``` python
 # Wow!
-w.watch(fibonacci_test, [10000], name='fibo_test1')
-w.watch(fibonacci_test, [200], name='fibo_test2')
-w.watch(fibonacci_test, [300], name='fibo_test3')
+consumed1, _ = w.watch(fibonacci_test, [10000], name='fibo_test1')
+consumed2, _ = w.watch(fibonacci_test, [200], name='fibo_test2')
+consumed3, _ = w.watch(fibonacci_test, [300], name='fibo_test3')
 ```
