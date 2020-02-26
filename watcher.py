@@ -6,7 +6,6 @@ class Watcher(object):
     def __init__(self, td=False, upload_s3_path=None):
         self.points = {}
         self.time_debug = td
-        self.s3_path = upload_s3_path
 
     def watch(self, target, arg_list=None, name=None):
         timer_start = time.time()
